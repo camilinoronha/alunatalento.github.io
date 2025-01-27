@@ -1,13 +1,18 @@
-<!DOCTYPE html>
 <html>
-<head>
-<title>Olá Talento tech</title>
-</head>
 <body>
 
-<h1>meu nome é</h1>
-<p>Camili</p>
-<p>Talento Tech Lupionopolis</p>
+<h2>HTML Forms</h2>
+
+<form action="/action_page.php">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="Nome" value="Camili"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="Sobrenome" value="Noronha"><br><br>
+  <input type="text" id="lname" name="Idade" value="21"><br><br>
+  <input type="submit" value="Submit">
+</form> 
+
+<p>Clique para enviar</p>
 
 </body>
 </html>
